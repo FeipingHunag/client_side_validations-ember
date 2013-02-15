@@ -3,7 +3,7 @@ module ClientSideValidations
     module Generators
       class InstallGenerator < Rails::Generators::Base
         def copy_initalizer
-          source_paths << File.expand_path('../../templates/client_side_validations-ember', __FILE__)
+          source_paths << File.expand_path('../../../templates/client_side_validations/ember', __FILE__)
           copy_file 'initializer.rb', 'config/initializers/client_side_validations-ember.rb'
         end
 
