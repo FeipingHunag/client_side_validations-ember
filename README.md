@@ -13,7 +13,7 @@
 Run the install generator to get the initializer:
 
 ```bash
-rails g client_side_validations-ember:install
+rails g client_side_validations:ember:install
 ```
 
 This will copy `client_side_validations-ember.rb` to
