@@ -4,7 +4,7 @@
 [![Dependency Status](https://gemnasium.com/dockyard/client_side_validations-ember.png?travis)](https://gemnasium.com/dockyard/client_side_validations-ember)
 [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/dockyard/client_side_validations-ember)
 
-[Ember](https://github.com/rails/ember) plugin for [ClientSideValidations](https://github.com/bcardarella/client_side_validations)
+[Ember](https://github.com/emberjs/ember.js) plugin for [ClientSideValidations](https://github.com/bcardarella/client_side_validations)
 
 ## Installation ##
 
