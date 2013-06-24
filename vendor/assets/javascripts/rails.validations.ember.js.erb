@@ -15,7 +15,7 @@
     for (property in railsValidations) {
       emberValidations[property.camelize()] = railsValidations[property];
     }
-    App.User.reopen({validations: emberValidations});
+    model.reopen({validations: emberValidations});
   }
 
   <% ClientSideValidations::Ember.models.each do |rails, ember| %>
